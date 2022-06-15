@@ -1,3 +1,3 @@
 package com.qubix.todo
 
-data class TaskHolder(var taskText: String, var isChecked: Boolean)
+data class Task(val taskText: String, val isChecked: Boolean)
